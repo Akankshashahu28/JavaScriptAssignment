@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(21, 221, 221);
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-top: 100px;
+}
+input[type=text] {
+   
+    border: 2px solid black;
+    outline: none;
+    font-size: 1em;
+    padding: 20px 0px 20px 10px ;
+}
+input::placeholder{
+    font-size: 1em;
+font-style: monospace;}
+
+
+.btn {
+    margin-left: 20px;
+    font-size: 16px;
+    background-color: rgb(27, 48, 170);
+    padding: 10px 12px;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 8px 12px;
+}

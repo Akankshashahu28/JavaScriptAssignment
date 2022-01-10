@@ -1,0 +1,47 @@
+.form {
+    border: 1px solid black;
+    padding: 70px 40px;
+    border-radius: 10px;
+    margin: 50px 100px;
+    background-color:rgb(166, 230, 164);
+}
+ h1{
+     text-align: center;
+ }
+input {
+    margin-left: 7px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+} 
+ #agecheckbtn{
+    border: 2px solid black;
+} 
+label{ 
+    margin-left: 150px;
+    font-size: 20px;
+}
+.output{
+   margin-top:40px;    
+}
+.output span{
+    line-height:30px;
+    font-size: 20px;
+}
+#mybtn{
+    font-size:18px;
+    margin-left: 150px;
+    padding:5px 100px;
+    border-radius:10px;
+}
+button:hover{
+    background-color:cornflowerblue;
+    color: #ffff;
+}
+button[type="submit"]{
+   width:10%;
+
+}
+input:hover{
+    background-color:#dfdfdfdf;
+}
